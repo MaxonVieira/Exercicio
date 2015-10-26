@@ -1,0 +1,14 @@
+// !-- Segunda questão --! //
+
+var cidades = ['Salvador','São Paulo','Rio de Janeiro','Tocantins'];
+
+var resposta = function(){
+    for(var i = 0 ; i < cidades.length;i++){
+        var posicao = str[i];
+        if(posicao[0] == 'S'){
+            console.log(posicao);
+        }
+    }
+}
+
+resposta();
