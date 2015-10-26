@@ -1,0 +1,15 @@
+// !-- Questão cinco --! //
+
+var Empregado = function(nome, sobrenome, salario){
+  this.nome = nome;
+  this.sobrenome = sobrenome;
+  this.salarioMensal = salario;
+  this.calculoSalarioAnual = function(){
+    return this.salarioMensal*12;
+  }
+  this.dadosEmpregado = function(){
+    return (this.nome+" "+this.sobrenome+", Salario: "+this.salarioMensal);
+  }
+}
+var prototipo1 = new Empregado("Maxon","Vieira",200);
+console.log(prototipo1.dadosEmpregado())
