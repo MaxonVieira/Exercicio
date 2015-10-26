@@ -1,0 +1,2 @@
+# exercicio
+Questões JS
