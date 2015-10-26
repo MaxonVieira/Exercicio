@@ -1,0 +1,33 @@
+// !-- Primeira Questão --! //
+
+// Script.js //
+function frase() {
+  var  palavra= document.getElementById('palavra').value;
+  var parte = palavra.substring(0, 4);
+  document.getElementById('resposta').innerHTML = parte;
+}
+// Script.js //
+-------------------------------------------------------------------
+// Html //
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Primeira Questão</h1>
+    <p>
+      As quatro primeiras letras são:
+      
+      <palavra id="resposta">
+      </palavra>
+    </p>
+    <input id="palavra"> 
+    <input type="submit" id="enviar" onclick="frase();">
+  </body>
+
+</html>
+// Html //
