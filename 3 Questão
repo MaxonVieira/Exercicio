@@ -1,0 +1,15 @@
+function style(elemento,nome){
+var valor = (arguments[2])
+    return valor;
+}
+console.log(style('sem valor','Ok','30px'));
+function assert(resposta,funcao_teste){
+    if(resposta === funcao_teste){
+    console.log('Bem sucedido')
+    }
+    else{
+    console.log('Mal sucedido');
+    }
+}
+
+assert('30px',style('div','font-size','30px'));
